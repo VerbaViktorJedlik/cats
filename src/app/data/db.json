@@ -1,0 +1,103 @@
+{
+  "cats": [
+    {
+      "id": "1",
+      "name": "Whiskers",
+      "breed": "Siamese",
+      "age": 2,
+      "ownerName": "Alice Johnson",
+      "ownerEmail": "alice.johnson@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "2",
+      "name": "Shadow",
+      "breed": "Maine Coon",
+      "age": 5,
+      "ownerName": "Bob Smith",
+      "ownerEmail": "bob.smith@example.com",
+      "vaccinated": false
+    },
+    {
+      "id": "3",
+      "name": "Mittens",
+      "breed": "Persian",
+      "age": 3,
+      "ownerName": "Carol Lee",
+      "ownerEmail": "carol.lee@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "4",
+      "name": "Pumpkin",
+      "breed": "Bengal",
+      "age": 1,
+      "ownerName": "David Brown",
+      "ownerEmail": "david.brown@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "5",
+      "name": "Luna",
+      "breed": "British Shorthair",
+      "age": 4,
+      "ownerName": "Emma Davis",
+      "ownerEmail": "emma.davis@example.com",
+      "vaccinated": false
+    },
+    {
+      "id": "6",
+      "name": "Tiger",
+      "breed": "Abyssinian",
+      "age": 6,
+      "ownerName": "Frank Wilson",
+      "ownerEmail": "frank.wilson@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "7",
+      "name": "Bella",
+      "breed": "Ragdoll",
+      "age": 3,
+      "ownerName": "Grace Miller",
+      "ownerEmail": "grace.miller@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "8",
+      "name": "Coco",
+      "breed": "Russian Blue",
+      "age": 2,
+      "ownerName": "Henry Taylor",
+      "ownerEmail": "henry.taylor@example.com",
+      "vaccinated": false
+    },
+    {
+      "id": "9",
+      "name": "Oliver",
+      "breed": "Sphynx",
+      "age": 5,
+      "ownerName": "Isabella Scott",
+      "ownerEmail": "isabella.scott@example.com",
+      "vaccinated": true
+    },
+    {
+      "id": "10",
+      "name": "Charlie",
+      "breed": "Norwegian Forest",
+      "age": 1,
+      "ownerName": "Jack Thompson",
+      "ownerEmail": "jack.thompson@example.com",
+      "vaccinated": false
+    },
+    {
+      "id": "12",
+      "name": "Bajszi",
+      "breed": "",
+      "age": 1,
+      "ownerName": "Viktor",
+      "ownerEmail": "viktor@ugyes.hu",
+      "vaccinated": true
+    }
+  ]
+}
