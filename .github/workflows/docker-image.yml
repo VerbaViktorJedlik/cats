@@ -30,4 +30,4 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: ghcr.io/somloidavid/angular_beadando:latest
+        tags: ghcr.io/verbaviktorjedlik/cats:latest
