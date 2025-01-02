@@ -1,0 +1,50 @@
+@if(cat) {
+<div class="modal" tabindex="-1" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Adatok rögzítése</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="cancel()"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="catName" class="form-label">Cica Név</label>
+            <input type="text" class="form-control" id="catName" [value]="cat.name"
+              (change)="cat.name= getvalue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="breed" class="form-label">Cica fajtája</label>
+            <input class="form-control" id="breed" [value]="cat.breed " (change)="cat.breed = getvalue($event)">
+
+          </div>
+          <div class="mb-3">
+            <label for="catAge" class="form-label">Cica kora</label>
+            <input type="number" class="form-control" id="catAge" [value]="cat.age"
+              (change)="cat.age = getNumberValue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="ownerName" class="form-label">Cicatulaj neve</label>
+            <input type="text" class="form-control" id="ownerName" [value]="cat.ownerName"
+              (change)="cat.ownerName = getvalue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="ownerEmail" class="form-label">Cicatulaj e-mail címe</label>
+            <input type="email" class="form-control" id="ownerEmail" [value]="cat.ownerEmail"
+              (change)="cat.ownerEmail = getvalue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="teamLeaderBirth" class="form-label ">Be van e oltva   </label>
+            <input type="checkbox" class="form-check-input" id="teamLeaderBirth" [checked]="cat.vaccinated"
+              (change)="cat.vaccinated = getBooleanValue($event)">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="cancel()">Mégsem</button>
+        <button type="button" class="btn btn-success" (click)="save()">Mentés</button>
+      </div>
+    </div>
+  </div>
+</div>
+}
